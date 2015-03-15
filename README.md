@@ -1,2 +1,3 @@
 # log
-basic logging library
+
+Basic logging library for go programs
