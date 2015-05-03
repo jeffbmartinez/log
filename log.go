@@ -14,6 +14,14 @@ const (
 	PANIC_PREFIX = "[PANIC]"
 )
 
+func Print(v ...interface{}) {
+	log.Print(v)
+}
+
+func Printf(format string, v ...interface{}) {
+	log.Printf(format, v)
+}
+
 func Info(v ...interface{}) {
 	log.Printf("%v %v\n", INFO_PREFIX, fmt.Sprint(v...))
 }
